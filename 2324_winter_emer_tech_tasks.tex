@@ -28,6 +28,11 @@
   Rather, you should use the Newton's method\autocite{newtonsqrt}. Start with an initial guess for the square root called $z_0$. You then repeatedly improve it using the following formula, until the difference between some previous guess $z_i$ and the next $z_{i+1}$ is less than some threshold, say $0.01$.
   
   $$ z_{i+1} = z_i -  \frac{z_i \times z_i - x}{2 z_i}$$
+
+  \item Consider all possible functions taking four bits as input and outputting a single bit. How many such possible functions\footnote{You can ignore any internal workings of the function, just focus on how many ways there are of having four bits of input and one bit of output.} are there?
+  
+  Write Python code to select one such function at random out of all the possibilities. Suppose the only way you can figure out what the function is, is by calling it with different inputs and checking the outputs. How many times do you need to call the function to be certain which function it is?
+
 \end{enumerate}
 
 \end{document}
